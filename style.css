@@ -1,0 +1,19 @@
+/** {
+	border: 2px solid black;
+}*/
+
+/*body {
+	margin: 30px 20px;*/
+
+
+
+.logo {
+	margin: auto;
+	margin-top: 200px;
+    width: 280px;
+    border:3px solid #8AC007;;
+}
+
+.logo img {
+	max-width: 100%;
+}
