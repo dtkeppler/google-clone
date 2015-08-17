@@ -11,9 +11,22 @@
 	margin: auto;
 	margin-top: 200px;
     width: 280px;
-    border:3px solid #8AC007;;
+    /*border:3px solid #8AC007;*/
 }
 
 .logo img {
 	max-width: 100%;
 }
+
+.user-search {
+	margin: 0 auto;
+	margin-top: 30px;
+    width: 550px;
+}
+
+.user-search form {
+/*	margin: 0 auto;
+	display: flex;*/
+}
+
+.buttons {}
