@@ -2,16 +2,44 @@
 	border: 2px solid black;
 }*/
 
-/*body {
-	margin: 30px 20px;*/
+.nav {
+	/* creates nav bar */
+	margin-top: 20px;
+	height: 10px;
+	padding-left: 78%;
+}
 
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
 
+.nav ul li {
+	/* removes ul bullet-points */
+	list-style: none;
+	/* remove link underline */
+	text-decoration: none;
+	/* lists links horizontally */
+	float: left;
+	/* allows padding */
+	display: block;
+	/* spaces out nav line items */
+	padding: 0px 10px;
+	/* makes links black */
+	color: black;
+	font-family: sans-serif;
+	font-size: 0.8em;
+}
+
+/* first-child not working */
+.nav ul li:first-child {
+	font-color: #BDC3C7;
+}
 
 .logo {
 	margin: auto;
-	margin-top: 200px;
+	margin-top: 170px;
     width: 280px;
-    /*border:3px solid #8AC007;*/
 }
 
 .logo img {
@@ -24,9 +52,17 @@
     width: 550px;
 }
 
-.user-search form {
-/*	margin: 0 auto;
-	display: flex;*/
+.buttons{
+	margin-left: 42%;
 }
 
-.buttons {}
+/* question: is there a way to select all children of .buttons? */
+.search, .lucky {
+	margin-top: 20px;
+	margin-right: 3px;
+	margin-left: 3px;
+	display: inline-block;
+}
+
+/*#footer {
+}*/
