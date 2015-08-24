@@ -31,9 +31,8 @@
 	font-size: 0.8em;
 }
 
-/* first-child not working */
 .nav ul li:first-child {
-	font-color: #BDC3C7;
+	color: #BDC3C7;
 }
 
 .logo {
@@ -54,6 +53,7 @@
 
 .buttons{
 	margin-left: 42%;
+	margin-bottom: 210px;
 }
 
 /* question: is there a way to select all children of .buttons? */
@@ -64,5 +64,30 @@
 	display: inline-block;
 }
 
-/*#footer {
-}*/
+.footer {
+/*	margin-top: 20px;*/
+	height: 200px;
+	background-color: #ECECEC
+}
+
+.footer ul {
+	padding-left: 20px;
+}
+
+.footer ul li {
+	/* removes ul bullet-points */
+	list-style: none;
+	/* remove link underline */
+	text-decoration: none;
+	/* lists links horizontally */
+	float: left;
+	/* allows padding */
+	display: block;
+	/* spaces out nav line items */
+	padding: 0px 15px;
+	/* makes links black */
+	color: #6C7A89;
+	font-family: sans-serif;
+	font-size: 0.8em;
+	padding-top: 15px;
+}
